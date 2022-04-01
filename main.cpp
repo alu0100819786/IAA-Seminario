@@ -7,7 +7,7 @@ using namespace std;
 int main(void){
 
 int entrada;
-int st,h,ne,hn,ow,w,ph,pw;
+int st,h,ne,hn,ow,w,ph,pw_;
 
 cout <<"-------------------------"<< endl;
 cout <<"Introduzca la acción del bot en tiempo T. Escoge uno de los siguientes valores:" << endl;
