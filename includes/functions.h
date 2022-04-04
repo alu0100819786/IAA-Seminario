@@ -417,20 +417,20 @@ float ST_One_Escape(int st, int h,int ne, int hn, int ow, int w, int ph, int pw)
         valorST = 0.2;
         valorSTOne = 0.05;
     }
-    if (h == 1) { valorH = 0.5; }
-    if (h == 2) { valorH = 0.5; }
-    if (ne == 1) { valorNE = 0.15; }
-    if (ne == 2) { valorNE = 0.85; }
-    if (hn == 1) { valorHN = 0.35; }
-    if (hn == 2) { valorHN = 0.65; }
-    if (ow == 1) { valorOW = 0.5; }
-    if (ow == 2) { valorOW = 0.5; }
-    if (w == 1) { valorW = 0.4; }
-    if (w == 2) { valorW = 0.6; }
-    if (ph == 1) { valorPH = 0.1; }
-    if (ph == 2) { valorPH = 0.9; }
-    if (pw == 1) { valorPW = 0.2; }
-    if (pw == 2) { valorPW = 0.8; }
+    if (h == 1) { valorH = 0.05; }
+    if (h == 2) { valorH = 0.95; }
+    if (ne == 1) { valorNE = 0.99; }
+    if (ne == 2) { valorNE = 0.01; }
+    if (hn == 1) { valorHN = 0.95; }
+    if (hn == 2) { valorHN = 0.05; }
+    if (ow == 1) { valorOW = 0.95; }
+    if (ow == 2) { valorOW = 0.05; }
+    if (w == 1) { valorW = 0.1; }
+    if (w == 2) { valorW = 0.9; }
+    if (ph == 1) { valorPH = 0.01; }
+    if (ph == 2) { valorPH = 0.99; }
+    if (pw == 1) { valorPW = 0.3; }
+    if (pw == 2) { valorPW = 0.7; }
     return valorST * valorSTOne * valorH * valorNE * valorHN * valorOW * valorW * valorPH * valorPW;
 }
 
