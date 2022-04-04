@@ -493,12 +493,12 @@ float ST_One_Danger(int st, int h,int ne, int hn, int ow, int w, int ph, int pw)
 /**
  * @brief 
  * 
- * @param stone_Atacar 
- * @param stone_pickW 
- * @param stone_pickE 
- * @param stone_Explore 
- * @param stone_Escape 
- * @param Stone_Danger 
+ * @param stone_Atacar Probability of attack
+ * @param stone_pickW Probability of Pick a weapon
+ * @param stone_pickE Probability of Pick energy
+ * @param stone_Explore Probability of Explore
+ * @param stone_Escape Probability of Escape
+ * @param Stone_Danger Probability of Detect Danger
  * @return float 
  */
 float normalize(float stone_Atacar, float stone_pickW, float stone_pickE, float stone_Explore, float stone_Escape, float Stone_Danger){
@@ -508,12 +508,12 @@ float normalize(float stone_Atacar, float stone_pickW, float stone_pickE, float 
 /**
  * @brief 
  * 
- * @param probAtack 
- * @param probPickW 
- * @param probPickE 
- * @param probExplore 
- * @param probEscape 
- * @param probDanger 
+ * @param probAtack Probability of Attack normalized
+ * @param probPickW Probability of Pick a weapon Normalized
+ * @param probPickE Probability of Pick enery normalized
+ * @param probExplore Probability of Explore normalized
+ * @param probEscape Probability of Excape normalized
+ * @param probDanger Probability of Detech danger normalized
  */
 void printResult(float probAtack, float probPickW, float probPickE, float probExplore, float probEscape, float probDanger) {
     std::vector<float> probabilitys;
